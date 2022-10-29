@@ -1,0 +1,20 @@
+.contact-icon{
+    border-radius: 1rem;
+}
+.contact-icon:hover{
+    background-color: rgb(231, 228, 223);
+}
+@media(max-width:450px){
+    .Maincontainer{
+        height:25rem;
+        width:90%;
+    }
+    
+    .logoimage{
+       height:4rem; 
+       
+    }
+    .contactbox{
+        margin-top:2.5rem;
+    }
+}

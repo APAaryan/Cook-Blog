@@ -1,0 +1,111 @@
+
+.headertitles {
+  margin: 1.25rem 0  1.5rem 0;
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.htbig {
+  /* position: absolute; */
+  color: #a89f9f;
+  font-size: 3.1rem;
+  /* top: 20%; */
+}
+.htsmall {
+  /* position:absolute; */
+  font-size: 1.5rem;
+  /* top: 15%; */
+  font-family: "Baloo Bhai 2", cursive;
+}
+.Hometopcomponent {
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  height: 27rem;
+  align-items: center;
+  background-color:rgb(255, 251, 251);
+  width:100%;
+  
+  /* justify-content:center; */
+}
+.HomeBanner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+.HomeBannerimg {
+  width: 80%;
+  object-fit: fill;
+  border-radius: 0.625em;
+  box-shadow: 0.25em -0.1875em 0.4375em rgba(30, 43, 33, 0.6);
+}
+.Homesidebar{
+  display:flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+}
+.HomeSideHead{
+  font-size:3.125em;
+  font-family: "Baloo Bhai 2", cursive;
+  color: #6ebd8d;
+}
+.HomeSideSubhead{
+  font-size:1.25em;
+  word-wrap: break-word;
+  width:80%;
+  font-family: 'Comfortaa', cursive;
+  color: #807171;
+}
+.homepost {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  color: #0b5f68;
+  font-family: "Baloo Bhai 2", cursive;
+  margin:1.25rem;
+  margin-bottom: 1rem;
+}
+
+hr{
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 1rem;
+}
+.footerElement{
+  width:100%;
+  position: relative;
+  bottom: 0;
+  display:flex;
+  justify-content: center;
+  background-color:black;
+  color:white;
+  font: 1rem sans-serif;
+  line-height: 3rem;
+}
+
+@media(max-width:700px){
+  .Hometopcomponent{
+    flex-direction:column;
+    width:100%;
+    margin-top:4rem;
+    height:35rem;
+  }
+  .HomeBanner{
+    width:100%;
+    margin-bottom: 2rem;
+  }
+  .HomeBannerimg{
+    width:90%;
+    height:20em;
+    object-fit: fill;
+  }
+  .Homesidebar{
+    width:100%;
+  }
+}
