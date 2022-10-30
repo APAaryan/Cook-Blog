@@ -7,9 +7,11 @@ import {API} from '../../services/api.js'
 import  { DataContext } from '../../constants/DataProvider';
 import { useNavigate } from 'react-router-dom';
 
+
+
 const Component = styled(Box) `
  width:25rem;
- height:28rem;
+ height:31rem;
  margin:3.125rem auto 3.125rem auto;
  box-shadow: 0px 0.0625rem 0.625rem rgba(0, 0, 0, 0.6);
  background:transparent;
