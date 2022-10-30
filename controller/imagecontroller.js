@@ -1,7 +1,7 @@
 import grid from 'gridfs-stream';
 import mongoose from 'mongoose';
 
-const url= 'https://apcookblog.herokuapp.com/' || 'http://localhost:8000';
+const url= 'https://apcookblog.herokuapp.com' || 'http://localhost:8000';
 
 let gfs,gridfsBucket;
 
