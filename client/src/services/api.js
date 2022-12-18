@@ -3,8 +3,8 @@ import axios from 'axios';
 import {API_Notification_messages , SERVICE_URLS} from '../constants/config.js'
 import { getaccesstoken ,getType} from '../utils/commonutils.js';
 
-const API_URL='https://apcookblog.herokuapp.com' || 'http://localhost:8000';
-
+// const API_URL='https://apcookblog.herokuapp.com' || 'http://localhost:8000';
+const API_URL='http://localhost:8000';
 const axiosInstance = axios.create({
     baseURL:API_URL,
     timeout:20000,

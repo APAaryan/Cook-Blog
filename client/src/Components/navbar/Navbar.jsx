@@ -14,11 +14,6 @@ import Drawer from '@mui/material/Drawer';
 import List from '@mui/material/List';
 import Divider from '@mui/material/Divider';
 import ListItem from '@mui/material/ListItem';
-import ListItemButton from '@mui/material/ListItemButton';
-import ListItemIcon from '@mui/material/ListItemIcon';
-import ListItemText from '@mui/material/ListItemText';
-import InboxIcon from '@mui/icons-material/MoveToInbox';
-import MailIcon from '@mui/icons-material/Mail';
 
 // const navmenu=document.querySelector('.Menu');
 // const navul=document.querySelector('.navitem>ul');
@@ -66,60 +61,6 @@ const Navbar= () => {
     </Box>
   );
   return (
-    //     // <div className="nav">
-    //     //   <div className="logo">
-    //     //     <img className="logoimg" src={Logo} alt="Logo" />
-    //     //   </div>
-    //     //   <div className="navitem">
-    //     //     <ul>
-    //     //       <Link to='/' style={{textDecoration:"none" , color:"inherit"}}><li className="navlistitem">HOME</li>
-    //     //       </Link>
-    //     //       <Link to='/about' style={{textDecoration:"none" , color:"inherit"}}><li className="navlistitem">ABOUT</li>
-    //     //       </Link>
-    //     //       <Link to='/contact' style={{textDecoration:"none" , color:"inherit"}}><li className="navlistitem">CONTACT</li>
-    //     //       </Link>
-    //     //       <Link to='/login' style={{textDecoration:"none" , color:"inherit"}}><li className="navlistitem">LOGOUT</li>
-    //     //       </Link>
-    //     //     </ul>
-    //     //   </div>
-    //     //   <div className="navbutt">
-    //     //     <Link to='/create'>
-    //     //     <button className="createpost">CREATE POST</button>
-    //     //     </Link>
-    //     //   </div>
-
-    //     //   <label for="hamburger" className="Menu" ><MenuIcon  fontSize="large" style={{cursor:"pointer"}}/></label>
-    //     //   <input type="checkbox" id="hamburger"/>
-
-    //     // </div>
-    //   <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-    //     <div className="logo">
-    //       <img className="logoimg" src={Logo} alt="Logo" />
-    //     </div>
-    //   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    //     <span className="navbar-toggler-icon"></span>
-    //   </button>
-
-    //   <div className="collapse navbar-collapse" id="navbarSupportedContent">
-    //     <ul className="navbar-nav mr-auto ">
-    //       <li className="nav-item mx-4">
-    //         <Link to='/' className="nav-link" >Home </Link>
-    //       </li>
-    //       <li className="nav-item mx-4">
-    //         <Link to='/about' className="nav-link" >About</Link>
-    //       </li>
-    //       <li className="nav-item mx-4">
-    //         <Link to='/contact' className="nav-link" >Contact</Link>
-    //       </li>
-    //       <li className="nav-item mx-4">
-    //         <Link to='/login'className="nav-link" >Logout</Link>
-    //       </li>
-    //     </ul>
-    //   </div>
-    //   <Link to='/create'>
-    //   <button className="btn btn-outline-success my-2 my-sm-0 mr-5 px-4" type="submit">Create Post</button>
-    //   </Link>
-    // </nav>
 
     <>
       <Box sx={{ flexGrow: 1 }} >
